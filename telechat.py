@@ -4,15 +4,15 @@ from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
 
-token = 'TELEGRAM_BOT_TOKEN'
-openai.api_key = 'OPENAI_KEY'
+token = '6296637510:AAGHJlPr-5DUM17YLCIWEjmjhGM6M3rz7mM'
+openai.api_key = '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'
 
 bot = Bot(token)
 dp = Dispatcher(bot)
 
 # print(openai.Model.list())
 
-users = {tg_id1,tg_id2}
+users = {1998605919}
 
 accepted_users = lambda message: message.from_user.id not in users
 
